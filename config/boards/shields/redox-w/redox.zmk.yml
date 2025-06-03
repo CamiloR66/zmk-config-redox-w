@@ -1,0 +1,11 @@
+file_format: "1"
+id: redox
+name: redox-w
+type: shield
+url: https://github.com/CamiloR66/zmk-config-redox-w
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - redox_left
+  - redox_right
