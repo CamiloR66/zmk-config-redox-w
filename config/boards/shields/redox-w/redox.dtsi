@@ -27,8 +27,9 @@
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        wakeup-source;
-        diode-direction = "col2row";
+        wakeup-sou
+        rce;
+        diode-direction = "row2col";
 
         row-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
                   , <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -38,4 +39,4 @@
                   ;
 
     };
-};
+};PPPPOO,,,,,,,,,,,..D311111111333322eeewsssdaaaadeedcxwssxssswssssxxxxxxxxxxxxxx
