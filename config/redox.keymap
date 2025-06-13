@@ -22,7 +22,7 @@
 // | SHIFT |  Z  |  X  |   C   |  V  |  B  | PG_UP | PG_DOWN | --- | HOME | END   |  N    |  M    |  ,    |  .   | /  | SHFT(RET) |
 // | CRTL  | ALT | GUI | ADJST |   LOWER   | SPACE | BKSPACE | --- | DEL  | SPACE |     RAISE     | LEFT  | DOWN | RIGHT |   DOWN   |
             bindings = <
-   &kp ESC      &kp N1   &kp N2   &kp N3 &kp N4   &kp N5                                                &kp N6    &kp N7    &kp N8    &kp N9    &kp N0   &kp EQUAL
+   &kp GRAVE      &kp N1   &kp N2   &kp N3 &kp N4   &kp N5                                                &kp N6    &kp N7    &kp N8    &kp N9    &kp N0   &kp EQUAL
    &kp TAB      &kp Q    &kp W    &kp E  &kp R    &kp T  &kp LBKT                     &kp RBKT          &kp Y     &kp U     &kp I     &kp O     &kp P    &kp BSLH
    &kp CAPSLOCK &kp A    &kp S    &kp D  &kp F    &kp G  &mt C_VOL_DN LPAR            &mt C_VOL_UP RPAR &kp H     &kp J     &kp K     &kp L     &kp SEMI &mt LALT RET
    &kp LSHFT    &kp Z    &kp X    &kp C  &kp V    &kp B  &kp PG_UP &kp PG_DN &kp HOME &kp END           &kp N     &kp M     &kp COMMA &kp DOT   &kp UP   &mt RSHFT MINUS
@@ -34,7 +34,7 @@
         lower_layer {
 // --------------------------------------------------------------------------------------------------------------------------
 // |       |     |     |       |       |     |                   ---              |     |     |      |      |     |       |
-// | ESC   |  1  |  2  |   3   |   4   |  5  |       |           ---        |     |  6  |  7  |   8  |  9   |  0  |  DEL  |
+// | ESC   |  1  |  2  |   3   |   4   |  5  |       |           ---        |     |  6  |  7  |   8  |  9   |  0  |  DEL  |^éé
 // |       |  -  |  =  |   [   |   ]   |  \  |       |           ---        |     |  *  |  4  |   5  |  6   |  +  |   -   |
 // |       | ESC | GUI | COPY  | PASTE |     |       |         | --- |      |     |  \  |  1  |   2  |  3   | RET |  RET  |
 // |       |     |     |       |             |       |         | --- |      |  0  |   ADJUST  |      |ENTER |     |       |
