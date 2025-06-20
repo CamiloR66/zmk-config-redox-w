@@ -2,7 +2,7 @@ if SHIELD_REDOX_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_REDOX_NAME
-    default "My Board"
+    default "Redox"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
