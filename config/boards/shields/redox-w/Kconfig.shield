@@ -1,4 +1,4 @@
-CONFIG SHIELD_REDOX_DONGLE
+config SHIELD_REDOX_DONGLE
     def_bool $(shields_list_contains,redox_dongle)
 
 config SHIELD_REDOX_LEFT
